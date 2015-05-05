@@ -15,6 +15,12 @@
 		71CA535019DCA6B700F1638C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CA534F19DCA6B700F1638C /* Images.xcassets */; };
 		71CA535319DCA6B700F1638C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CA535119DCA6B700F1638C /* LaunchScreen.xib */; };
 		71CA535F19DCA6B700F1638C /* AppMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA535E19DCA6B700F1638C /* AppMapTests.m */; };
+		D002AA0B1AF96C4E00383F4D /* Contrast2B.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D002AA0A1AF96C4E00383F4D /* Contrast2B.jpg */; };
+		D002AA0D1AF96C5600383F4D /* Contrast1A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D002AA0C1AF96C5600383F4D /* Contrast1A.jpg */; };
+		D002AA121AF96C7500383F4D /* Contrast1B.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D002AA0E1AF96C7500383F4D /* Contrast1B.jpg */; };
+		D002AA131AF96C7500383F4D /* Contrast2A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D002AA0F1AF96C7500383F4D /* Contrast2A.jpg */; };
+		D002AA141AF96C7500383F4D /* Contrast3A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D002AA101AF96C7500383F4D /* Contrast3A.jpg */; };
+		D002AA151AF96C7500383F4D /* Contrast3B.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D002AA111AF96C7500383F4D /* Contrast3B.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +49,12 @@
 		71CA535819DCA6B700F1638C /* AppMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CA535D19DCA6B700F1638C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71CA535E19DCA6B700F1638C /* AppMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppMapTests.m; sourceTree = "<group>"; };
+		D002AA0A1AF96C4E00383F4D /* Contrast2B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Contrast2B.jpg; path = ../../Contrast2B.jpg; sourceTree = "<group>"; };
+		D002AA0C1AF96C5600383F4D /* Contrast1A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Contrast1A.jpg; path = ../../Contrast1A.jpg; sourceTree = "<group>"; };
+		D002AA0E1AF96C7500383F4D /* Contrast1B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Contrast1B.jpg; path = ../../Contrast1B.jpg; sourceTree = "<group>"; };
+		D002AA0F1AF96C7500383F4D /* Contrast2A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Contrast2A.jpg; path = ../../Contrast2A.jpg; sourceTree = "<group>"; };
+		D002AA101AF96C7500383F4D /* Contrast3A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Contrast3A.jpg; path = ../../Contrast3A.jpg; sourceTree = "<group>"; };
+		D002AA111AF96C7500383F4D /* Contrast3B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Contrast3B.jpg; path = ../../Contrast3B.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,12 @@
 				71CA533E19DCA6B700F1638C /* AppMap */,
 				71CA535B19DCA6B700F1638C /* AppMapTests */,
 				71CA533D19DCA6B700F1638C /* Products */,
+				D002AA0A1AF96C4E00383F4D /* Contrast2B.jpg */,
+				D002AA0C1AF96C5600383F4D /* Contrast1A.jpg */,
+				D002AA0E1AF96C7500383F4D /* Contrast1B.jpg */,
+				D002AA0F1AF96C7500383F4D /* Contrast2A.jpg */,
+				D002AA101AF96C7500383F4D /* Contrast3A.jpg */,
+				D002AA111AF96C7500383F4D /* Contrast3B.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,9 +222,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D002AA121AF96C7500383F4D /* Contrast1B.jpg in Resources */,
 				71CA534E19DCA6B700F1638C /* Main.storyboard in Resources */,
 				71CA535319DCA6B700F1638C /* LaunchScreen.xib in Resources */,
+				D002AA0D1AF96C5600383F4D /* Contrast1A.jpg in Resources */,
+				D002AA131AF96C7500383F4D /* Contrast2A.jpg in Resources */,
 				71CA535019DCA6B700F1638C /* Images.xcassets in Resources */,
+				D002AA0B1AF96C4E00383F4D /* Contrast2B.jpg in Resources */,
+				D002AA141AF96C7500383F4D /* Contrast3A.jpg in Resources */,
+				D002AA151AF96C7500383F4D /* Contrast3B.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +442,7 @@
 				71CA536419DCA6B700F1638C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71CA536519DCA6B700F1638C /* Build configuration list for PBXNativeTarget "AppMapTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				71CA536719DCA6B700F1638C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
