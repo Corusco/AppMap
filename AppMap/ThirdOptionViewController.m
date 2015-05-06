@@ -10,6 +10,8 @@
 
 @interface ThirdOptionViewController ()
 
+@property (strong, nonatomic) IBOutlet UILabel *label;
+
 @end
 
 @implementation ThirdOptionViewController
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.label.text = self.identifier;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,7 @@
 //
 
 #import "ThirdViewController.h"
+#import "ThirdOptionViewController.h"
 
 @interface ThirdViewController ()
 
@@ -22,6 +23,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    ThirdOptionViewController *optionsViewController = [segue destinationViewController];
+    optionsViewController.identifier = segue.identifier;
 }
 
 /*

@@ -229,6 +229,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="PKL-N8-IEA" id="Bel-gS-cXW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d2B-S5-Wwt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

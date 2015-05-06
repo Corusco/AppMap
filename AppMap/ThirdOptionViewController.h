@@ -10,4 +10,6 @@
 
 @interface ThirdOptionViewController : UIViewController
 
+@property (nonatomic) NSString *identifier;
+
 @end
