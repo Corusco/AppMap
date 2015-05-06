@@ -21,6 +21,12 @@
 		D002AA131AF96C7500383F4D /* Contrast2A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D002AA0F1AF96C7500383F4D /* Contrast2A.jpg */; };
 		D002AA141AF96C7500383F4D /* Contrast3A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D002AA101AF96C7500383F4D /* Contrast3A.jpg */; };
 		D002AA151AF96C7500383F4D /* Contrast3B.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D002AA111AF96C7500383F4D /* Contrast3B.jpg */; };
+		D002AA1B1AF97D4A00383F4D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D002AA1A1AF97D4A00383F4D /* ThirdViewController.m */; };
+		D002AA1E1AF97D5400383F4D /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D002AA1D1AF97D5400383F4D /* FourthViewController.m */; };
+		D002AA211AF97DB700383F4D /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D002AA201AF97DB700383F4D /* FifthViewController.m */; };
+		D002AA231AF97F1300383F4D /* funny-pictures-tiger-snow-tummyrub.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D002AA221AF97F1300383F4D /* funny-pictures-tiger-snow-tummyrub.jpg */; };
+		D002AA251AF97F1E00383F4D /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D002AA241AF97F1E00383F4D /* lion.jpg */; };
+		D0F1A5A41AF9C432005D7105 /* ThirdOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F1A5A31AF9C432005D7105 /* ThirdOptionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,16 @@
 		D002AA0F1AF96C7500383F4D /* Contrast2A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Contrast2A.jpg; path = ../../Contrast2A.jpg; sourceTree = "<group>"; };
 		D002AA101AF96C7500383F4D /* Contrast3A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Contrast3A.jpg; path = ../../Contrast3A.jpg; sourceTree = "<group>"; };
 		D002AA111AF96C7500383F4D /* Contrast3B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Contrast3B.jpg; path = ../../Contrast3B.jpg; sourceTree = "<group>"; };
+		D002AA191AF97D4A00383F4D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D002AA1A1AF97D4A00383F4D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		D002AA1C1AF97D5400383F4D /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		D002AA1D1AF97D5400383F4D /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		D002AA1F1AF97DB700383F4D /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		D002AA201AF97DB700383F4D /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		D002AA221AF97F1300383F4D /* funny-pictures-tiger-snow-tummyrub.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "funny-pictures-tiger-snow-tummyrub.jpg"; path = "../../funny-pictures-tiger-snow-tummyrub.jpg"; sourceTree = "<group>"; };
+		D002AA241AF97F1E00383F4D /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lion.jpg; path = ../../lion.jpg; sourceTree = "<group>"; };
+		D0F1A5A21AF9C432005D7105 /* ThirdOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdOptionViewController.h; sourceTree = "<group>"; };
+		D0F1A5A31AF9C432005D7105 /* ThirdOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdOptionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +103,8 @@
 				D002AA0F1AF96C7500383F4D /* Contrast2A.jpg */,
 				D002AA101AF96C7500383F4D /* Contrast3A.jpg */,
 				D002AA111AF96C7500383F4D /* Contrast3B.jpg */,
+				D002AA221AF97F1300383F4D /* funny-pictures-tiger-snow-tummyrub.jpg */,
+				D002AA241AF97F1E00383F4D /* lion.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,9 +126,17 @@
 				71CA534719DCA6B700F1638C /* FirstViewController.m */,
 				71CA534919DCA6B700F1638C /* SecondViewController.h */,
 				71CA534A19DCA6B700F1638C /* SecondViewController.m */,
-				71CA534C19DCA6B700F1638C /* Main.storyboard */,
+				D002AA191AF97D4A00383F4D /* ThirdViewController.h */,
+				D002AA1A1AF97D4A00383F4D /* ThirdViewController.m */,
+				D0F1A5A21AF9C432005D7105 /* ThirdOptionViewController.h */,
+				D0F1A5A31AF9C432005D7105 /* ThirdOptionViewController.m */,
+				D002AA1C1AF97D5400383F4D /* FourthViewController.h */,
+				D002AA1D1AF97D5400383F4D /* FourthViewController.m */,
+				D002AA1F1AF97DB700383F4D /* FifthViewController.h */,
+				D002AA201AF97DB700383F4D /* FifthViewController.m */,
 				71CA534F19DCA6B700F1638C /* Images.xcassets */,
 				71CA535119DCA6B700F1638C /* LaunchScreen.xib */,
+				71CA534C19DCA6B700F1638C /* Main.storyboard */,
 				71CA533F19DCA6B700F1638C /* Supporting Files */,
 			);
 			path = AppMap;
@@ -229,7 +255,9 @@
 				D002AA131AF96C7500383F4D /* Contrast2A.jpg in Resources */,
 				71CA535019DCA6B700F1638C /* Images.xcassets in Resources */,
 				D002AA0B1AF96C4E00383F4D /* Contrast2B.jpg in Resources */,
+				D002AA231AF97F1300383F4D /* funny-pictures-tiger-snow-tummyrub.jpg in Resources */,
 				D002AA141AF96C7500383F4D /* Contrast3A.jpg in Resources */,
+				D002AA251AF97F1E00383F4D /* lion.jpg in Resources */,
 				D002AA151AF96C7500383F4D /* Contrast3B.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,9 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D002AA1E1AF97D5400383F4D /* FourthViewController.m in Sources */,
+				D0F1A5A41AF9C432005D7105 /* ThirdOptionViewController.m in Sources */,
 				71CA534B19DCA6B700F1638C /* SecondViewController.m in Sources */,
+				D002AA1B1AF97D4A00383F4D /* ThirdViewController.m in Sources */,
 				71CA534519DCA6B700F1638C /* AppDelegate.m in Sources */,
 				71CA534819DCA6B700F1638C /* FirstViewController.m in Sources */,
+				D002AA211AF97DB700383F4D /* FifthViewController.m in Sources */,
 				71CA534219DCA6B700F1638C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
